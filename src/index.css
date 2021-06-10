@@ -5,9 +5,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  display: flex;
+  background-size: fill;
+  background-color: rgba(112, 128, 144, 0.493);
+  height: 100px;
+  width: 100%;
+  margin: 5;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Navbar {
+  display: flex;
+  list-style-type: none;
+  width: 100vw;
+  max-height: 5vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  align-items: center;
+}
+
+.Navbar li {
+  justify-content: space-around;
+  padding: 8px;
+}
+
+.Navbar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar li a:hover {
+  color: white;
+}
+
+.Primary img {
+  border: 3px solid black;
+}
+
+.Information {
+  display: flex;
+  flex-flow: column;
+}
+
+.News {
+  display: flex;
+  justify-content: space-around;
+}
+
+.News div {
+  border: 3px solid black;
+  width: 25vw;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.News a {
+  text-decoration: none;
+  color: black;
+}
+
+.News a:hover div {
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+
+

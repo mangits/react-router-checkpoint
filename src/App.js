@@ -13,8 +13,16 @@ function App() {
     newsArticles: [
         { 
             title: "Winning at Life!",
-            article: "There are many ways to do so...but the best is just try, try, try again!"
-        }
+            article: "There are many ways to do so... but the best is just try, try, try again! Click here to learn more..."
+        },
+        { 
+            title: "Florida is at it again",
+            article: "Florida man has been caught on camera licking the doorbells of middle-class neighbourhoods."
+        },
+        { 
+          title: "Javscript is DEAD",
+          article: "That's right, the world is ending. We are all moving to Clojure for web development and pending the apocalypse."
+        },
         //add more stories here in this array!
     ],
     contactProfiles: [
@@ -62,7 +70,7 @@ function App() {
         <Profiles />
         <p>{`Name: ${profile.firstName} ${profile.lastName}`}</p>
         <p>{`Birthday: ${profile.birthday}`}</p>
-        <img src={profile.profileImage} height="100"/>
+        <img src={profile.profileImage} height="200"/>
         </>)
     }} />)
   })
